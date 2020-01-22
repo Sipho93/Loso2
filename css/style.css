@@ -277,7 +277,11 @@ btn-tour:hover{
 
 
 .carousel-indicators{
-    bottom: -25px;      
+    bottom: -25px;
+}
+
+.carousel-indicators .active{
+    background-color: #129CF3;
 }
 
 
@@ -304,6 +308,65 @@ btn-tour:hover{
 }
 
 
+/* Features */
+.feature-item{
+    
+    position: relative;
+    padding-bottom: 40px;
+    padding-right: 80px;
+}
+
+.feature-item div{
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+.feature-item div i{
+    
+        font-size: 55px;
+    color: #129CF3;
+        transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    text-align: left;
+    
+}
+
+
+.feature-item3{
+    
+    position: relative;
+    padding-bottom: 40px;
+    padding-left: 80px;
+}
+
+.feature-item3 div{
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.feature-item3 div i{
+    
+        font-size: 55px;
+    color: #129CF3;
+        transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+
+#iconMobile{
+    
+        font-size: 90px;    
+}
 
 
 
